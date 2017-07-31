@@ -41,7 +41,10 @@ describe("RomanNumeral Kata", () => {
         expect(RomanNumeral(100)).to.equal('C');
     })
 
-    it("repeat letters only 3 times"), () => {
-        expect(RomanNumeral()).to.equal();
-    }
+    it("Return D when 500 is input", () => {
+        expect(RomanNumeral(500)).to.equal('D');
+    })
+    it("Return M when 1000 is input", () => {
+        expect(RomanNumeral(1000)).to.equal('M');
+    })
 })
