@@ -1,23 +1,28 @@
 export const RomanNumeral = (inputNumber) => {
+
+    var outputNumber;
+
     if (inputNumber === 1) {
-        return 'I';
+        outputNumber = 'I';
     } else if (inputNumber === 2) {
-        return 'II';
+        outputNumber = 'II';
     } else if (inputNumber === 3) {
-        return 'III';
+        outputNumber = 'III';
     } else if (inputNumber === 4) {
-        return 'IV';
+        outputNumber = 'IV';
     } else if (inputNumber === 5) {
-        return 'V';
+        outputNumber = 'V';
     } else if (inputNumber === 10) {
-        return 'X';
+        outputNumber = 'X';
     } else if (inputNumber === 50) {
-        return 'L';
+        outputNumber = 'L';
     } else if (inputNumber === 100) {
-        return 'C';
+        outputNumber = 'C';
     } else if (inputNumber === 500) {
-        return 'D';
+        outputNumber = 'D';
     } else if (inputNumber === 1000) {
-        return 'M';
+        outputNumber = 'M';
     }
+
+    return outputNumber;
 }
