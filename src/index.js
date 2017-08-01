@@ -1,28 +1,55 @@
 export const RomanNumeral = (inputNumber) => {
 
     var outputNumber;
+    var inputNumeral;
+    var outputNumeral;
 
     if (inputNumber === 1) {
-        outputNumber = 'I';
+        outputNumeral = 'I';
     } else if (inputNumber === 2) {
-        outputNumber = 'II';
+        outputNumeral = 'II';
     } else if (inputNumber === 3) {
-        outputNumber = 'III';
+        outputNumeral = 'III';
     } else if (inputNumber === 4) {
-        outputNumber = 'IV';
+        outputNumeral = 'IV';
     } else if (inputNumber === 5) {
-        outputNumber = 'V';
+        outputNumeral = 'V';
     } else if (inputNumber === 10) {
-        outputNumber = 'X';
+        outputNumeral = 'X';
     } else if (inputNumber === 50) {
-        outputNumber = 'L';
+        outputNumeral = 'L';
     } else if (inputNumber === 100) {
-        outputNumber = 'C';
+        outputNumeral = 'C';
     } else if (inputNumber === 500) {
-        outputNumber = 'D';
+        outputNumeral = 'D';
     } else if (inputNumber === 1000) {
-        outputNumber = 'M';
+        outputNumeral = 'M';
     }
+    return outputNumeral;
 
-    return outputNumber;
+    var numeral = [
+        { input: number, output: str },
+        // { input: 1, output: 'I' },
+        // { input: 2, output: 'II' },
+        // { input: 3, output: 'III' },
+        // { input: 4, output: 'IV' },
+        // { input: 5, output: 'V' },
+        // { input: 10, output: 'X' },
+        // { input: 50, output: 'L' },
+        // { input: 100, output: 'C' },
+        // { input: 500, output: 'D' },
+        // { input: 1000, output: 'M' }
+
+    ]
+
+    for (key in numeral) {
+        if (input = inputNumber * 2) {
+            outputNumeral = output.repeat(2);
+
+            return outputNumeral;
+        }
+
+        input = 20;
+        return outputNumeral
+    }
 }
