@@ -1,6 +1,34 @@
 export const RomanNumeral = (inputNumber) => {
 
-    var outputNumber;
+    //Created array of objects. Key: Value relationship
+    var numeral = [
+        { input: 1000, output: "M" },
+        { input: 900, output: "DM" },
+        { input: 500, output: "D" },
+        { input: 400, output: "CD" },
+        { input: 100, output: "C" },
+        { input: 50, output: "L" },
+        { input: 40, output: "XL" },
+        { input: 10, output: "X" },
+        { input: 5, output: "V" },
+        { input: 4, output: "IV" },
+        { input: 1, output: "I" }
+    ]
+
+    /*  var numeral = [
+        { input: number, output: str },
+        { input: 1, output: 'I' },
+        { input: 2, output: 'II' },
+        { input: 3, output: 'III' },
+        { input: 4, output: 'IV' },
+        { input: 5, output: 'V' },
+        { input: 10, output: 'X' },
+        { input: 50, output: 'L' },
+        { input: 100, output: 'C' },
+        { input: 500, output: 'D' },
+        { input: 1000, output: 'M' }
+
+        /*    var outputNumber;
     var inputNumeral;
     var outputNumeral;
 
@@ -14,6 +42,8 @@ export const RomanNumeral = (inputNumber) => {
         outputNumeral = 'IV';
     } else if (inputNumber === 5) {
         outputNumeral = 'V';
+    } else if (inputNumber === 9) {
+        outputNumeral = 'IX';
     } else if (inputNumber === 10) {
         outputNumeral = 'X';
     } else if (inputNumber === 50) {
@@ -27,29 +57,5 @@ export const RomanNumeral = (inputNumber) => {
     }
     return outputNumeral;
 
-    var numeral = [
-        { input: number, output: str },
-        // { input: 1, output: 'I' },
-        // { input: 2, output: 'II' },
-        // { input: 3, output: 'III' },
-        // { input: 4, output: 'IV' },
-        // { input: 5, output: 'V' },
-        // { input: 10, output: 'X' },
-        // { input: 50, output: 'L' },
-        // { input: 100, output: 'C' },
-        // { input: 500, output: 'D' },
-        // { input: 1000, output: 'M' }
-
-    ]
-
-    for (key in numeral) {
-        if (input = inputNumber * 2) {
-            outputNumeral = output.repeat(2);
-
-            return outputNumeral;
-        }
-
-        input = 20;
-        return outputNumeral
-    }
+]*/
 }

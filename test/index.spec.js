@@ -13,14 +13,6 @@ describe("RomanNumeral Kata", () => {
         expect(RomanNumeral(1)).to.equal('I');
     })
 
-    it("Return II When 2 is input", () => {
-        expect(RomanNumeral(2)).to.equal('II');
-    })
-
-    it("Return III When 3 is input", () => {
-        expect(RomanNumeral(3)).to.equal('III');
-    })
-
     it("Return IV when 4 is input", () => {
         expect(RomanNumeral(4)).to.equal('IV');
     })
@@ -31,6 +23,10 @@ describe("RomanNumeral Kata", () => {
 
     it("Return X when 10 is input", () => {
         expect(RomanNumeral(10)).to.equal('X');
+    })
+
+    it("Return XL when 40 is input", () => {
+        expect(RomanNumeral(40)).to.equal('XL');
     })
 
     it("Return L When 50 is input", () => {
@@ -46,8 +42,5 @@ describe("RomanNumeral Kata", () => {
     })
     it("Return M when 1000 is input", () => {
         expect(RomanNumeral(1000)).to.equal('M');
-    })
-    it("Repeat roman numeral", () => {
-        expect(RomanNumeral(20)).to.equal('XX');
     })
 })
