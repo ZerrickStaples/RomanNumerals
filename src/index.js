@@ -7,6 +7,7 @@ export const RomanNumeral = (inputNumber) => {
         { input: 500, output: "D" },
         { input: 400, output: "CD" },
         { input: 100, output: "C" },
+        { input: 100, output: "LC" },
         { input: 50, output: "L" },
         { input: 40, output: "XL" },
         { input: 10, output: "X" },

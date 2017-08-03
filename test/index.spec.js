@@ -32,7 +32,9 @@ describe("RomanNumeral Kata", () => {
     it("Return L When 50 is input", () => {
         expect(RomanNumeral(50)).to.equal('L');
     })
-
+    it("Return LC when 90 is input", () => {
+        expect(RomanNumeral(90)).to.equal('LC');
+    })
     it("Return C when 100 is input", () => {
         expect(RomanNumeral(100)).to.equal('C');
     })
