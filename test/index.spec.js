@@ -1,6 +1,7 @@
 import { expect } from 'chai';
 import Mocha from 'mocha';
 import { RomanNumeral } from '../src/index';
+// import { ArabicNumbers } from '../src/index';
 
 describe("Canary test", () => {
     it("should return true", () => {
@@ -43,4 +44,16 @@ describe("RomanNumeral Kata", () => {
     it("Return M when 1000 is input", () => {
         expect(RomanNumeral(1000)).to.equal('M');
     })
+
+    it("Return 1000 when M is input", () => {
+        expect(RomanNumeral('M')).to.equal(1000);
+    })
 })
+
+/* 
+describe("ArabicNumber Kata"), () => {
+    it("Return 1000 when M is input", () => {
+        expect(ArabicNumbers('M')).to.equal(1000);
+    })
+}
+*/
