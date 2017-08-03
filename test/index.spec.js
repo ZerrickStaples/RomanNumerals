@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import Mocha from 'mocha';
-import { RomanNumeral } from '../src/index';
+import { ArabicNumbers } from '../src/index';
 
 describe("Canary test", () => {
     it("should return true", () => {
