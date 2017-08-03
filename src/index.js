@@ -1,4 +1,4 @@
-export const ArabicNumbers = (inputNumeral) => {
+export const RomanNumeral = (inputNumber) => {
 
     //Created array of objects. Key: Value relationship
     var numeral = [
